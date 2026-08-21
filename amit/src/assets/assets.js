@@ -6,7 +6,7 @@ import projectImg3 from '../assets/image-3.jpeg';
 import projectImg4 from '../assets/image-4.webp';
 import projectImg5 from '../assets/image-5.jpg';
 import projectImg6 from '../assets/image-6.jpeg';
-import sanket from '../assets/sanket.jpeg';
+import sanket from '../assets/Amit.jpeg';
 
 
 export const assets = {
@@ -76,58 +76,198 @@ export const skills = [
 ];
 
 
-
 export const projects = [
+
   {
-    title: "AI in Personalized Learning",
-    description: "Built an AI-driven quiz platform that analyzes student performance and predicts future scores using Scikit-Learn, with Flask backend and HTML, CSS, JavaScript frontend.",
+    title: "Electrixa",
+    description: "A student-focused technology platform for learning, hardware projects, software development, courses, kits and engineering resources.",
     image: projectImg1,
-    tech: ["Python", "Scikit-Learn", "Flask", "HTML/CSS/JS"],
-    icons: [FaRobot, FaServer, FaDatabase , FaStripe],
-    code: "https://github.com/sanket-hanchate/ai-student-performance-tracker.git",
-  },  
-  {
-    title: "Freelancing Platform",
-    description: "Designed and developed a freelancing portal featuring user auth, project listing, searching, and visit tracking using React (Vite) on the frontend and Express + SQLite on the backend.",
-    image: projectImg2,
-    tech: ["React (Vite)", "Express", "SQLite", "Tailwind CSS"],
-    icons: [FaReact, FaServer, FaDatabase , FaTools],
-    code: "https://github.com/sanket-hanchate/freelancing-platform.git",
-  },
-  {
-    title: "Smart Health Care System",
-    description: "Built an AI-powered Smart Healthcare System using Python, Flask, and Machine Learning models to predict wellness from sleep, stress, heart rate, and calorie intake. Designed for early lifestyle assessment in chronic conditions like Thalassemia, promoting proactive digital healthcare.",
-    image: projectImg3,
-    tech: ["Python", "Flask", "Machine Learning", "Tailwind CSS"],
-    icons: [FaRobot, FaServer, FaDatabase],
-    code: "https://github.com/sanket-hanchate/thalassemia-healthcare.git",
-  },
-  {
-    title: "Portfolio Website",
-    description: "A responsive personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and blogs. Features smooth animations using Framer Motion and supports dynamic content rendering with Markdown, along with a modern dark/light mode UI.",
-    image: projectImg4,
-    tech: ["React.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
+    tech: ["React", "JavaScript", "Tailwind CSS", "Node.js"],
+    icons: [FaReact, FaCode, FaServer],
     code: "",
   },
-  {
-    title: "SpaceWorld – Educational Space Website",
-    description: "SpaceWorld is a responsive static website built to help school students learn about space in a simple and interactive way. The platform includes sections on the solar system, Indian space missions, astronauts, and planet details.",
-    image: projectImg5,
-    tech: ["HTML5", "CSS", "BootStrap", "Javascript"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    code: "https://github.com/sanket-hanchate/SpaceWorld.git",
-  },
-  {
-    title: "Context-Aware Policy Intelligence System",
-    description: "An AI-powered web application that detects semantic changes in policy PDFs using a custom-trained NLP model and generates real-time, confidence-based alerts for agents.",
-    image: projectImg6,
-    tech: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "pdf-parse", "TF-IDF", "Logistic Regression"],
-    icons: [FaRobot, FaReact, FaCloud],
-    code: "https://github.com/sanket-hanchate/policy-intelligence-system.git",
-  }
-];
 
+  {
+    title: "AI-Based Citizen Feedback Analysis",
+    description: "An AI-powered system that analyzes citizen feedback using NLP and machine learning to identify issues and generate department-wise insights.",
+    image: projectImg2,
+    tech: ["Python", "NLP", "LSTM", "Flask", "Machine Learning"],
+    icons: [FaRobot, FaServer, FaDatabase],
+    code: "",
+  },
+
+  {
+    title: "Sentiment Analyzer",
+    description: "An AI-based application that analyzes text feedback and classifies user opinions into different sentiment categories using NLP techniques.",
+    image: projectImg3,
+    tech: ["Python", "NLP", "Flask", "VADER", "Machine Learning"],
+    icons: [FaRobot, FaServer, FaDatabase],
+    code: "",
+  },
+
+  {
+    title: "Railway Track Safety System",
+    description: "An embedded safety system designed to detect railway track problems and provide early warnings to help prevent railway accidents.",
+    image: projectImg4,
+    tech: ["Arduino", "Embedded C", "Sensors", "IoT"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Nabha Student Learning Platform",
+    description: "A digital learning platform designed to provide rural students with educational content, learning resources and offline-friendly access.",
+    image: projectImg5,
+    tech: ["React", "PWA", "JavaScript", "CSS"],
+    icons: [FaReact, FaCode, FaMobileAlt],
+    code: "",
+  },
+
+  {
+    title: "Scroll",
+    description: "A modern responsive web project focused on smooth scrolling, interactive sections and an engaging user interface experience.",
+    image: projectImg6,
+    tech: ["React", "JavaScript", "CSS", "Framer Motion"],
+    icons: [FaReact, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Kishore Chandak",
+    description: "A modern web project developed to present information and services through a responsive interface with a clean and user-friendly design.",
+    image: projectImg1,
+    tech: ["React", "JavaScript", "CSS", "Responsive Design"],
+    icons: [FaReact, FaCode],
+    code: "",
+  },
+
+  {
+    title: "InTech Heritage",
+    description: "A heritage-focused digital platform designed to present cultural information, locations and historical content through an interactive website.",
+    image: projectImg2,
+    tech: ["React", "JavaScript", "CSS", "Three.js"],
+    icons: [FaReact, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Hospital Management System",
+    description: "A web-based hospital management solution designed to manage patients, doctors, appointments and essential healthcare information efficiently.",
+    image: projectImg3,
+    tech: ["React", "Node.js", "Express.js", "Database"],
+    icons: [FaReact, FaServer, FaDatabase],
+    code: "",
+  },
+
+  {
+    title: "SpaceWorld",
+    description: "An educational website that helps students explore the solar system, planets, astronauts and space missions through interactive content.",
+    image: projectImg4,
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    icons: [FaCode, FaMobileAlt],
+    code: "",
+  },
+
+  {
+    title: "Amit Portfolio",
+    description: "A responsive personal portfolio website showcasing my technical skills, projects, experience, achievements and professional journey.",
+    image: projectImg5,
+    tech: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
+    icons: [FaReact, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Freelancing Platform",
+    description: "A web platform designed for freelancers and clients with features for authentication, project listings, searching and user interactions.",
+    image: projectImg6,
+    tech: ["React", "Vite", "Express.js", "SQLite", "Tailwind CSS"],
+    icons: [FaReact, FaServer, FaDatabase],
+    code: "",
+  },
+
+  {
+    title: "Bluetooth Control Car",
+    description: "A Bluetooth-controlled robotic car that receives commands from a mobile device and controls the movement of the vehicle wirelessly.",
+    image: projectImg1,
+    tech: ["Arduino", "Bluetooth", "Embedded C", "Motor Driver"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Obstacle Avoidance Car",
+    description: "An autonomous robotic car that detects obstacles using sensors and automatically changes its direction to avoid collisions.",
+    image: projectImg2,
+    tech: ["Arduino", "Ultrasonic Sensor", "Embedded C", "Motor Driver"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Fire Fighting Car",
+    description: "An autonomous robotic vehicle designed to detect fire and move toward the affected area to perform basic fire extinguishing operations.",
+    image: projectImg3,
+    tech: ["Arduino", "Flame Sensor", "Embedded C", "Water Pump"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Health Care Monitoring System using ESP32",
+    description: "An IoT-based healthcare monitoring system that collects health parameters using sensors and provides real-time monitoring through ESP32.",
+    image: projectImg4,
+    tech: ["ESP32", "IoT", "Sensors", "Embedded C"],
+    icons: [FaTools, FaCloud, FaDatabase],
+    code: "",
+  },
+
+  {
+    title: "Smart Dustbin",
+    description: "An automated smart dustbin that uses sensors to detect nearby objects and open the lid automatically for touch-free waste disposal.",
+    image: projectImg5,
+    tech: ["Arduino", "Ultrasonic Sensor", "Servo Motor", "Embedded C"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Smart Water Pump for Agriculture",
+    description: "An automated agricultural irrigation system that monitors soil conditions and controls the water pump to improve water usage efficiency.",
+    image: projectImg6,
+    tech: ["Arduino", "Soil Moisture Sensor", "Relay", "Embedded C"],
+    icons: [FaTools, FaCloud],
+    code: "",
+  },
+
+  {
+    title: "Smart Blind Stick",
+    description: "An assistive smart stick that uses sensors to detect obstacles and provide alerts to help visually impaired users navigate safely.",
+    image: projectImg1,
+    tech: ["Arduino", "Ultrasonic Sensor", "Buzzer", "Embedded C"],
+    icons: [FaTools, FaCode],
+    code: "",
+  },
+
+  {
+    title: "Railway Accident Prevention System",
+    description: "An embedded railway safety solution designed to detect dangerous conditions and provide warnings to reduce the possibility of railway accidents.",
+    image: projectImg2,
+    tech: ["Arduino", "Sensors", "Embedded C", "IoT"],
+    icons: [FaTools, FaCloud],
+    code: "",
+  },
+
+  {
+    title: "Smart Home",
+    description: "An IoT-based smart home system that enables automated monitoring and control of household appliances using sensors and connected devices.",
+    image: projectImg3,
+    tech: ["Arduino", "ESP32", "IoT", "Sensors", "Embedded C"],
+    icons: [FaTools, FaCloud],
+    code: "",
+  },
+
+];
 
 export const workData = [
   {
