@@ -143,7 +143,7 @@ export const projects = [
   {
     title: "Scroll",
     description: "A modern responsive web project focused on smooth scrolling, interactive sections and an engaging user interface experience.",
-    image: speshImg,
+    image: realsImg,
     tech: ["React", "JavaScript", "CSS", "Framer Motion"],
     icons: [FaReact, FaCode],
     code: "",
@@ -179,7 +179,7 @@ export const projects = [
   {
     title: "SpaceWorld",
     description: "An educational website that helps students explore the solar system, planets, astronauts and space missions through interactive content.",
-    image: realsImg,
+    image: speshImg,
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     icons: [FaCode, FaMobileAlt],
     code: "",
