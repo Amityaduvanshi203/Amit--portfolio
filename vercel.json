@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "cd amit && npm install",
+  "buildCommand": "cd amit && npm run build",
+  "outputDirectory": "amit/dist"
+}
