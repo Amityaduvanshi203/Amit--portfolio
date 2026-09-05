@@ -6,7 +6,9 @@ require("dotenv").config();
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || true
+}));
 app.use(express.json());
 
 // Test Route

@@ -1,10 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 import { workData } from '../assets/assets'
 
 const Work = () => {
     return (
-        <motion.div
+        <Motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: 'easeOut' }}
@@ -39,7 +39,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

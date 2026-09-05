@@ -101,7 +101,7 @@ export const projects = [
     image: electresaImg,
     tech: ["React", "JavaScript", "Tailwind CSS", "Node.js"],
     icons: [FaReact, FaCode, FaServer],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Electrixa",
   },
 
   {
@@ -110,7 +110,7 @@ export const projects = [
     image: aiCustomerImg,
     tech: ["Python", "NLP", "LSTM", "Flask", "Machine Learning"],
     icons: [FaRobot, FaServer, FaDatabase],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Sentiment-analyzer",
   },
 
   {
@@ -119,7 +119,7 @@ export const projects = [
     image: aiSentimentImg,
     tech: ["Python", "NLP", "Flask", "VADER", "Machine Learning"],
     icons: [FaRobot, FaServer, FaDatabase],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Sentiment-analyzer",
   },
 
   {
@@ -128,7 +128,7 @@ export const projects = [
     image: railwayProjectImg,
     tech: ["Arduino", "Embedded C", "Sensors", "IoT"],
     icons: [FaTools, FaCode],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Railway_track",
   },
 
   {
@@ -137,7 +137,7 @@ export const projects = [
     image: nabhaImg,
     tech: ["React", "PWA", "JavaScript", "CSS"],
     icons: [FaReact, FaCode, FaMobileAlt],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Nabha--student",
   },
 
   {
@@ -146,7 +146,7 @@ export const projects = [
     image: realsImg,
     tech: ["React", "JavaScript", "CSS", "Framer Motion"],
     icons: [FaReact, FaCode],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Scroll--relecx",
   },
 
   {
@@ -155,7 +155,7 @@ export const projects = [
     image: intecImg,
     tech: ["React", "JavaScript", "CSS", "Responsive Design"],
     icons: [FaReact, FaCode],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/kishore-chandak-..-web-page-",
   },
 
   {
@@ -164,7 +164,7 @@ export const projects = [
     image: intecImg,
     tech: ["React", "JavaScript", "CSS", "Three.js"],
     icons: [FaReact, FaCode],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/-Intach-Solapur-heritage",
   },
 
   {
@@ -182,7 +182,7 @@ export const projects = [
     image: speshImg,
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     icons: [FaCode, FaMobileAlt],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/SpaceWorld",
   },
 
   {
@@ -191,7 +191,7 @@ export const projects = [
     image: portfolioImg,
     tech: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
     icons: [FaReact, FaCode],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Amit--portfolio",
   },
 
   {
@@ -200,7 +200,7 @@ export const projects = [
     image: freelancingImg,
     tech: ["React", "Vite", "Express.js", "SQLite", "Tailwind CSS"],
     icons: [FaReact, FaServer, FaDatabase],
-    code: "",
+    code: "https://github.com/Amityaduvanshi203/Freelancing-platform",
   },
 
   {

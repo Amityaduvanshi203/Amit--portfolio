@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { motion } from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 import { FaMapMarker, FaPhone, FaTwitter } from 'react-icons/fa'
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+
+const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const Contact = () => {
 
@@ -26,16 +28,16 @@ const Contact = () => {
         e.preventDefault()
 
         try {
-            const res = await axios.post("http://localhost:5000/api/contact", formData)
+            const res = await axios.post(`${API_URL}/contact`, formData)
             alert(res.data.message)
             setFormData({ name: "", email: "", message: "" })
-        } catch (error) {
+        } catch {
             alert("Error sending message")
         }
     }
 
     return (
-        <motion.div
+        <Motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
@@ -166,7 +168,7 @@ const Contact = () => {
 
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

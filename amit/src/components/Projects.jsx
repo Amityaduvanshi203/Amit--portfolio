@@ -1,11 +1,11 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 import { projects } from '../assets/assets'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
     return (
-        <motion.div
+        <Motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -33,7 +33,7 @@ const Projects = () => {
                     )}
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

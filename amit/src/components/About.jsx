@@ -1,11 +1,11 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 import { assets } from '../assets/assets'
 import { aboutInfo } from '../assets/assets'
 
 const About = () => {
     return (
-        <motion.div
+        <Motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -20,7 +20,7 @@ const About = () => {
 
                 <div className='flex flex-col md:flex-row items-center gap-12'>
                     <div className='md:w-1/2 rounded-2xl overflow-hidden'>
-                        <motion.img
+                        <Motion.img
                             initial={{ y: 50, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.9, ease: 'easeOut' }}
@@ -29,7 +29,7 @@ const About = () => {
                             src={assets.sanket} alt='Profile Img'
                         />
                     </div>
-                    <motion.div
+                    <Motion.div
                         initial={{ y: 50, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.9, ease: 'easeOut' }}
@@ -54,10 +54,10 @@ const About = () => {
                                 ))
                             }
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

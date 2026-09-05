@@ -1,10 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 import { assets } from '../assets/assets'
 
 const Hero = () => {
     return (
-        <motion.div
+        <Motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -29,7 +29,7 @@ const Hero = () => {
                 <div className='md:w-1/2 flex justify-center'>
                     <div className='relative w-64 h-64 md:w-80 md:h-80'>
                         <div className='absolute inset-0 rounded-full bg-linear-to-r from-purple-100 to-pink-100 animate-pulse-slow opacity-70'>
-                            <motion.img 
+                            <Motion.img 
                             animate={{ y: [0, -20, 0] }}
                             transition={{
                                 duration: 4,
@@ -43,7 +43,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

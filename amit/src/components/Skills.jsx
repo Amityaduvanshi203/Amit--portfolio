@@ -1,11 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion'
-import { div } from 'framer-motion/client'
+import { motion as Motion } from 'framer-motion'
 import { skills } from '../assets/assets'
 
 const Skills = () => {
     return (
-        <motion.div
+        <Motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: 'easeOut' }}
@@ -40,7 +39,7 @@ const Skills = () => {
                     }
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     )
 }
 

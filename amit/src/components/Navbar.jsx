@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FaBars, FaXmark } from 'react-icons/fa6'
-import { nav } from 'framer-motion/client'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
